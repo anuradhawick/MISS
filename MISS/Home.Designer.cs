@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.openFile = new System.Windows.Forms.OpenFileDialog();
+            this.saveFile = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // home
@@ -44,6 +46,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.OpenFileDialog openFile;
+        private System.Windows.Forms.SaveFileDialog saveFile;
     }
 }
 
